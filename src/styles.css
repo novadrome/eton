@@ -1,0 +1,189 @@
+html {
+  font-family: "Century Gothic";
+  outline: none;
+  scrollbar-width: none;
+}
+
+.theme-light {
+  --background-image-title: url("./images/image-light.jpg");
+  --background-color: #fff;
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --entry-background-color: rgba(200, 200, 200, 0.3);
+}
+
+.theme-dark {
+  --background-image-title: url("./images/image-dark.jpg");
+  --background-color: #01091c;
+  --primary-color: #01091c;
+  --secondary-color: #fff;
+  --entry-background-color: rgba(50, 50, 50, 0.3);
+}
+
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#htmlBody {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;  
+  scrollbar-width: none;
+  background-color: var(--background-color);
+  transition: all 0.25s ease-in-out;
+}
+
+#startHeader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background-color);
+
+  font-size: 30pt;
+  z-index: 999;
+  opacity: 1;
+}
+#textTab {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-color);
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+#themeBtn {
+  position: absolute;
+  top: 4em;
+  left: 4em;
+  transform: translate(-50%, -50%);
+  width: 3em;
+  height: 3em;
+
+  transition: all 0.25s ease-in-out;
+}
+
+#themeBtn:hover {
+  cursor: pointer;
+}
+
+#themeBtn:hover > svg {
+  transition: fill 0.25s ease-in-out;
+  fill: var(--secondary-color);
+}
+
+#sunIcon, #nightIcon {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  fill: var(--primary-color);
+  transition: fill 0.1s ease-in-out;
+}
+
+#head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 50%;
+  color: var(--secondary-color);
+  text-align: center;
+
+  transition: top 0.5s ease-in-out, color 0.1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#title {
+  background-image: var(--background-image-title);
+  background-position: 1em 1.1em;
+  background-size: 1em 1em;
+  background-clip: text;
+
+  color:rgba(0, 0, 0, 0);
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+  width: auto;
+}
+
+#subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0;
+}
+
+#title, #subtitle, #description {
+  user-select: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#container {
+  position: relative;
+  top: 15em;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  display: none;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: stretch;
+
+  height: auto;
+  width: 50vw;
+
+  opacity: 0;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  padding-bottom: 5em;
+
+  position: relative;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  transition: all 0.25s ease-in-out;
+}
+
+button {
+  padding: 1.5em 2em;
+  border: solid 1px var(--secondary-color);
+  margin: 2em;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+#container > div > div:focus {
+  background-color: rgba(50, 50, 50, 0.6)
+}
