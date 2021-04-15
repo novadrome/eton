@@ -1,6 +1,6 @@
 # eton
 
-## time oriented-note taking
+**time oriented note-taking.**
 
 Press TAB to create new rows. Hover your mouse to the left of the textbox for a trash icon to appear, click it to remove that textbox. Export the contents to .txt with the bottom button.
 
