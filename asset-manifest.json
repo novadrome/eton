@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eton/static/css/main.99a1c021.chunk.css",
-    "main.js": "/eton/static/js/main.642f0692.chunk.js",
-    "main.js.map": "/eton/static/js/main.642f0692.chunk.js.map",
+    "main.css": "/eton/static/css/main.3e33bceb.chunk.css",
+    "main.js": "/eton/static/js/main.0ea59028.chunk.js",
+    "main.js.map": "/eton/static/js/main.0ea59028.chunk.js.map",
     "runtime-main.js": "/eton/static/js/runtime-main.9073cec0.js",
     "runtime-main.js.map": "/eton/static/js/runtime-main.9073cec0.js.map",
     "static/js/2.e26eadbd.chunk.js": "/eton/static/js/2.e26eadbd.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c7dc423e.chunk.js": "/eton/static/js/3.c7dc423e.chunk.js",
     "static/js/3.c7dc423e.chunk.js.map": "/eton/static/js/3.c7dc423e.chunk.js.map",
     "index.html": "/eton/index.html",
-    "static/css/main.99a1c021.chunk.css.map": "/eton/static/css/main.99a1c021.chunk.css.map",
+    "static/css/main.3e33bceb.chunk.css.map": "/eton/static/css/main.3e33bceb.chunk.css.map",
     "static/js/2.e26eadbd.chunk.js.LICENSE.txt": "/eton/static/js/2.e26eadbd.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/eton/static/media/image-light.b5b6edec.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9073cec0.js",
     "static/js/2.e26eadbd.chunk.js",
-    "static/css/main.99a1c021.chunk.css",
-    "static/js/main.642f0692.chunk.js"
+    "static/css/main.3e33bceb.chunk.css",
+    "static/js/main.0ea59028.chunk.js"
   ]
 }
