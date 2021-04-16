@@ -11,9 +11,6 @@ const App = () => {
     );
   });
 
-// NOTES:
-// fix exporting (notes in function)
-
   return(
     <div id="htmlBody">
       <ThemeButtons id="themeBtn" onClick={toggleTheme} />
@@ -94,7 +91,6 @@ function toggleTheme() {
  }
 }
 
-// Immediately invoked function to set the theme on initial load
 function themeLoad() {
  if (localStorage.getItem('theme') === 'theme-light') {
      setTheme('theme-light');
@@ -192,12 +188,6 @@ document.addEventListener('timerStarted', e => {
   document.getElementById(`entry1`)!.focus();
   return i += 1;
 })
-
-// document.addEventListener('focus', e => {
-//   var elemID:string = document.activeElement!.id;
-//   console.log(elemID);
-//   if(elemID.includes("entry")) return document.getElementById(elemID)!.style.border = "solid 2px var(--secondary-color)";
-// })
 
 document.addEventListener("keydown", e => {
   if (e.key === "Tab") {
