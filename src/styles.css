@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Century Gothic';
-  src: url('./fonts/Century Gothic.ttf')  format('truetype');
-}
+@import url("./fonts/stylesheet.css");
 
 html {
   font-family: "Century Gothic";
