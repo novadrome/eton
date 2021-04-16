@@ -10,5 +10,6 @@ This was my first project created using React with TSX.
 
 ------------------------------
 
-If you have any questions, feel free to DM me on Twitter: [@realnovadrome](https://twitter.com/realnovadrome)
+If you have any questions, feel free to DM me on Twitter: [@realnovadrome](https://twitter.com/realnovadrome) 
+
 *If you want to drop me a few bucks for some reason, go ahead: [paypal.me/novadrome](https://paypal.me/novadrome)*
