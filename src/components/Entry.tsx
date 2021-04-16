@@ -14,7 +14,7 @@ const TextBox = styled.div`
     outline: none;
 
     font-size: 14pt;
-    font-family: "century-gothic";
+    font-family: "Century Gothic";
     overflow-wrap: break-word;
     overflow: auto;
     white-space: normal;	
