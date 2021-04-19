@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eton/static/css/main.3e33bceb.chunk.css",
-    "main.js": "/eton/static/js/main.0ea59028.chunk.js",
-    "main.js.map": "/eton/static/js/main.0ea59028.chunk.js.map",
+    "main.js": "/eton/static/js/main.09508812.chunk.js",
+    "main.js.map": "/eton/static/js/main.09508812.chunk.js.map",
     "runtime-main.js": "/eton/static/js/runtime-main.9073cec0.js",
     "runtime-main.js.map": "/eton/static/js/runtime-main.9073cec0.js.map",
     "static/js/2.e26eadbd.chunk.js": "/eton/static/js/2.e26eadbd.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9073cec0.js",
     "static/js/2.e26eadbd.chunk.js",
     "static/css/main.3e33bceb.chunk.css",
-    "static/js/main.0ea59028.chunk.js"
+    "static/js/main.09508812.chunk.js"
   ]
 }
