@@ -109,8 +109,8 @@ html {
 
 #title {
   background-image: var(--background-image-title);
-  background-position: 1em 1.1em;
-  background-size: 1em 1em;
+  background-position: 50% 50%;
+  background-size: 2.2em 2.2em;
   background-clip: text;
 
   color:rgba(0, 0, 0, 0);
