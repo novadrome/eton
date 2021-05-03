@@ -64,6 +64,21 @@ html {
   margin: 0;
 }
 
+#githubIcon {
+  position: absolute;
+  top: 4em;
+  right: 2em;
+  transform: translate(-50%, -50%);
+  width: 2.5em;
+  height: 2.5em;
+  fill: var(--primary-color);
+}
+#githubIcon:hover {
+  transition: fill 0.25s ease-in-out;
+  fill: var(--secondary-color);
+}
+
+
 #themeBtn {
   position: absolute;
   top: 4em;
@@ -174,6 +189,7 @@ html {
 button {
   padding: 1.5em 2em;
   border: solid 1px var(--secondary-color);
+  border-radius: 0.5rem;
   margin: 2em;
   color: var(--secondary-color);
   background-color: var(--primary-color);
@@ -187,5 +203,5 @@ button:hover {
 }
 
 #container > div > div:focus {
-  background-color: rgba(50, 50, 50, 0.6)
+  background-color: rgba(50, 50, 50, 0.5)
 }

@@ -9,6 +9,7 @@ const Entry = (props:any) => {
 const TextBox = styled.div`
 
     border: solid 1px var(--secondary-color);
+    border-radius: 0.5rem;
     background-color: var(--entry-background-color);
     color: var(--secondary-color);
     outline: none;

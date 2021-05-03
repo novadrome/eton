@@ -1,5 +1,6 @@
 import Line from "./components/Line";
 import ThemeButtons from "./components/ThemeButtons";
+import GithubIcon from "./components/GithubIcon";
 
 let children = [{key: 1, time: "00:00:00"}];
 
@@ -14,6 +15,9 @@ const App = () => {
   return(
     <div id="htmlBody">
       <ThemeButtons id="themeBtn" onClick={toggleTheme} />
+      <a href="https://github.com/novadrome/eton" target="blank">
+        <GithubIcon id="githubIcon" />
+      </a>
       <div id="head">
         <p id="title">eton</p>
         <p id="subtitle">time oriented note-taking.</p>
