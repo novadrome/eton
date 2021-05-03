@@ -2,7 +2,7 @@
 
 **time oriented note-taking.**
 
-Press TAB to create new rows. Hover your mouse to the left of the textbox for a trash icon to appear, click it to remove that textbox. Export the contents to .txt with the bottom button.
+Press TAB to create new rows. Hover your mouse to the right of the textbox for a trash icon to appear, click it to remove that textbox. Export the contents to .txt with the bottom button.
 
 Find it at [novadrome.github.io/eton](https://novadrome.github.io/eton)
 
